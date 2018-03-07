@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:innerRadiusRatio="3"
+            android:shape="ring"
+            android:thickness="15dp"
+            android:useLevel="false"
+            >
+            <!--<shape android:useLevel="true"-->
+            <!--android:innerRadiusRatio="2.3"-->
+            <!--android:shape="ring"-->
+            <!--android:thickness="20dp"-->
+            <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+            <!--<solid android:color="@color/progressBar" />-->
+            <!--<corners android:radius="10dp"/>-->
+            <!--</shape>-->
+            <solid android:color="@color/SleepScoreBackground" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <!--<clip android:clipOrientation="vertical" android:gravity="bottom">-->
+            <shape
+                android:innerRadiusRatio="3"
+                android:shape="ring"
+                android:thickness="15dp"
+                android:useLevel="true"
+                >
+                <corners android:bottomRightRadius="7.5dp"/>
+                <solid android:color="@color/SleepScore" />
+            </shape>
+        <!--</clip>-->
+    </item>
+</layer-list>
