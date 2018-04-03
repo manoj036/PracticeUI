@@ -11,14 +11,13 @@
         </shape>
     </item>
     <item android:id="@+id/progress">
-            <shape
-                android:innerRadiusRatio="3"
-                android:shape="ring"
-                android:thickness="15dp"
-                android:useLevel="true"
-                >
-                <corners android:bottomRightRadius="7.5dp"/>
-                <solid android:color="#00cf49" />
-            </shape>
+        <shape
+            android:innerRadiusRatio="3"
+            android:shape="ring"
+            android:thickness="15dp"
+            android:useLevel="true">
+            <corners android:bottomRightRadius="7.5dp"/>
+            <solid android:color="#00ff00" />
+        </shape>
     </item>
 </layer-list>

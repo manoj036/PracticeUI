@@ -9,7 +9,9 @@
     <color name="SleepScore">#00CF49</color>
     <color name="progressBar">#00CF49</color>
     <color name="SleepScoreBackground">#20234E</color>
-    <color name="white">#ffffff</color>
     <color name="blue">#0000ff</color>
+    <color name="sleepsummarytextcolor">#00f4fe</color>
+    <color name="white">#ffffff</color>
+    <color name="respiration_plot">#ff0000</color>
     />
 </resources>

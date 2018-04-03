@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "918821976433",
+    "firebase_url": "https://practice-ui.firebaseio.com",
+    "project_id": "practice-ui",
+    "storage_bucket": "practice-ui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918821976433:android:184335ba0c692d66",
+        "android_client_info": {
+          "package_name": "com.example.manojkumar.practiceui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918821976433-b4shmu8359u45r1bse9dtbjk8cls8r2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1fi4FGUxyqqGtmpfqnoKTn4OH06nSzzw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

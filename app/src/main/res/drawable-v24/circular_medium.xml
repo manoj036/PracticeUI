@@ -4,21 +4,22 @@
         <shape
             android:innerRadiusRatio="3"
             android:shape="ring"
-            android:thickness="15dp"
+            android:thickness="13dp"
             android:useLevel="false"
             >
-            <solid android:color="@color/SleepScoreBackground" />
+            <solid android:color="#20234e" />
         </shape>
     </item>
-    <item android:id="@+id/progress">
+    <item android:id="@android:id/progress"
+        android:rotation="-90">
             <shape
                 android:innerRadiusRatio="3"
                 android:shape="ring"
-                android:thickness="15dp"
+                android:thickness="13dp"
                 android:useLevel="true"
                 >
-                <corners android:bottomRightRadius="7.5dp"/>
-                <solid android:color="#00cf49" />
+                <corners android:bottomRightRadius="4dp"/>
+                <solid android:color="#009dff" />
             </shape>
     </item>
 </layer-list>
